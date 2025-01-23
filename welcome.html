@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+
+<style>
+    body {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: auto;
+        gap: 40px;
+        margin-left: 50px;
+
+    }
+
+    div {
+        border: 2px solid rgb(224, 222, 222);
+        width: 280px;
+        height: 380px;
+        border-radius: 4px;
+
+
+    }
+
+    li>img {
+        border: 1px solid black;
+        width: 180px;
+        height: 170px;
+        align-content: center;
+
+    }
+
+    li {
+        list-style: none;
+        margin-top: 3px;
+        align-content: center;
+    }
+
+    li:nth-child(2) {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        overflow: hidden;
+        white-space: nowrap;
+        margin-right: 40px;
+
+    }
+
+    li:nth-child(3),
+    li:nth-child(4) {
+        font-size: 20px;
+        text-align: center;
+        overflow: hidden;
+        white-space: nowrap;
+        margin-right: 40px;
+    }
+
+    li:nth-child(5) {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin-right: 40px;
+
+    }
+
+    li:last-child {
+        text-align: center;
+        margin-right: 40px;
+    }
+
+    .addbutton {
+        background: rgba(26, 247, 26, 0.585);
+        padding: 10px;
+        border-radius: 8px;
+        font-size: 20px;
+        cursor: pointer;
+
+    }
+
+    @media (max-width: 900px) {
+        body {
+
+            grid-template-columns: repeat(2, 1fr);
+
+        }
+    }
+</style> 
+<body id="book-list">
+    <!-- <div>
+        <ul>
+            <li><img src="image/Book-4.jpg" alt=""></li>
+            <li>Java</li>
+            <li>Dr.Gaurav </li>
+            <li>Publisher</li>
+            <li>₹1200</li>
+            <li><button class="addbutton"><img src="image/cart.svg" alt="">Add to cart</button></li>
+        </ul>
+    </div> -->
+
+    <!-- Add more -->
+
+</body>
+<script src="welcome.js"></script>
+</html>
+

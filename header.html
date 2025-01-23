@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        * {
+            margin: 0;
+        }
+    
+        body {
+            background-color: rgb(250, 191, 143,1);
+            color: rgb(2, 142, 212);
+        }
+    
+        a {
+            text-decoration: none;
+            color: rgb(2, 142, 212);
+        }
+    
+        h1 {
+            padding-left: 80px;
+        }
+    
+        .navbar {
+            background-color: rgb(242, 242, 39);
+            text-align: center;
+            font-size: 22px;
+    
+        }
+    
+        .searchbox {
+            padding-left: 80px;
+            position: relative;
+    
+        }
+    
+        #search_button {
+            height: 35px;
+            cursor: pointer;
+            position: absolute;
+            right: 3px;
+            top: 22px;
+            background: none;
+            border: none;
+    
+        }
+        #search_box:focus{
+            border-color: rgb(2, 142, 212);
+        }
+        #search_box {
+            height: 35px;
+            width: 500px;
+            border-radius: 4px;
+            border: 2px solid gray;
+            outline: none;
+           
+        }
+        .profile{
+            color: black;
+           display: flex;
+           margin-inline-start: 50px;
+           flex-wrap: nowrap;
+        }
+        .profile>label{
+            font-size: 19px;
+            color: rgb(26, 3, 66);
+        }
+        
+    </style>
+<body>
+    <table>
+        <tr>
+            <td><a href="eventlogo.html" target="content"><img src="image/logo.png" alt="Logo" width="70"
+                        height="70" /></a></td>
+            <td>
+                <h1>NITRA - Online Books Store</h1>
+            </td>
+            <td class="searchbox">
+                <input type="text" , id="search_box" , placeholder="Search Books">
+                <button type="Search" id="search_button"> <img src="image/search.svg" alt=""> </button>
+            </td>
+            <td>
+                <div class="profile">
+                    <label for="username">Guest</label>
+                    <img src="image/profile.png" alt="" width="30px" ,height="30px">
+                </div>
+            </td>
+        </tr>
+    </table>
+    <table class="navbar" width="100%" border="0">
+        <tr>
+            <td><a href="welcome.html" target="content">Home</a></td>
+            <td><a href="login.html" target="content">Login</a></td>
+            <td><a href="registration.html" target="content">Registration</a></td>
+            <td><a href="catalogue.html" target="content">Catalogue</a></td>
+            <td><a href="cart.html" target="content">Cart</a></td>
+        </tr>
+    </table>
+</body>
+<script>
+    document.querySelector(".profile>label").textContent = `${localStorage.getItem("username")}`
+</script>
+
+</html>
+
+

@@ -1,0 +1,103 @@
+{
+    "CSE": [
+      {
+        "image": "image/Book-1.jpg",
+        "title": "Python",
+        "author": "Thomas H. Cormen",
+        "publisher": "MIT Press",
+        "price": 850
+      },
+      {
+        "image": "image/Book-2.jpg",
+        "title": "Computer System Architecture",
+        "author": "Stuart Russell, Peter Norvig",
+        "publisher": "Pearson",
+        "price": 1200
+      },
+      {
+        "image": "image/Book-3.jpg",
+        "title": "Compiler Design",
+        "author": "Alfred V. Aho",
+        "publisher": "Pearson",
+        "price": 900
+      }
+      ,
+      {
+        "image": "image/Book-4.jpg",
+        "title": "Java",
+        "author": "Alfred V. Aho",
+        "publisher": "Pearson",
+        "price": 900
+      }
+    ],
+    "ECE": [
+      {
+        "image": "image/Book-5.jpg",
+        "title": "Signals and Systems",
+        "author": "Alan V. Oppenheim",
+        "publisher": "Prentice Hall",
+        "price": 1000
+      },
+      {
+        "image": "image/Book-6.jpg",
+        "title": "Digital Communication",
+        "author": "Simon Haykin",
+        "publisher": "Wiley",
+        "price": 950
+      },
+      {
+        "image": "image/Book-7.jpg",
+        "title": "Electronic Devices and Circuits",
+        "author": "J.B. Gupta",
+        "publisher": "S. Chand",
+        "price": 750
+      }
+    ],
+    "EEE": [
+      {
+        "image": "image/Book-8.jpg",
+        "title": "Electrical Engineering: Principles and Applications",
+        "author": "Allan R. Hambley",
+        "publisher": "Pearson",
+        "price": 1100
+      },
+      {
+        "image": "image/Book-9.jpg",
+        "title": "Power System Analysis",
+        "author": "John J. Grainger, William D. Stevenson",
+        "publisher": "McGraw-Hill",
+        "price": 1300
+      },
+      {
+        "image": "image/Book-10.jpg",
+        "title": "Control Systems Engineering",
+        "author": "Norman S. Nise",
+        "publisher": "Wiley",
+        "price": 950
+      }
+    ],
+    "Civil": [
+      {
+        "image": "image/Book-11.jpg",
+        "title": "Strength of Materials",
+        "author": "Ferdinand L. Singer",
+        "publisher": "Harper & Row",
+        "price": 750
+      },
+      {
+        "image": "image/Book-12.jpg",
+        "title": "Fluid Mechanics",
+        "author": "Frank M. White",
+        "publisher": "McGraw-Hill",
+        "price": 1050
+      },
+      {
+        "image": "image/Book-13.jpg",
+        "title": "Structural Analysis",
+        "author": "R.C. Hibbeler",
+        "publisher": "Pearson",
+        "price": 1300
+      }
+    ]
+  }
+  

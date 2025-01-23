@@ -1,0 +1,8 @@
+<svg width="200" height="40" xmlns="http://www.w3.org/2000/svg">
+  <!-- User Icon (Left side) -->
+  <circle cx="20" cy="20" r="15" fill="#4CAF50" />
+  <circle cx="20" cy="15" r="7" fill="black" />
+  <path d="M10,30 Q20,35 30,30" fill="black" />
+  
+  <!-- Username Text (Right side) -->
+</svg>

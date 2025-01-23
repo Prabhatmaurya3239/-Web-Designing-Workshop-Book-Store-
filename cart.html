@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+    body{
+       font-family: Arial, sans-serif;
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       background-color: #f4f4f9;
+       text-align: center;
+       justify-items: center;
+   }
+   table{
+       border: 2px solid black;
+       background: rgb(226, 226, 242);
+       width: 50vw;
+       margin-left: 2px;
+      
+   }
+   td, th{
+       border: 1px solid black;
+       text-align: center;
+       vertical-align: middle;
+       padding-top: 3px;
+       padding-bottom: 3px;
+     
+   }
+   tr>td:first-child{
+       display: inline-flex;
+       justify-content: space-around;
+       width: 98.6%;
+   }
+   button:hover{
+       border: 2px solid rgb(2, 142, 212);
+   }
+   button:active{
+       background: gray;
+       color: white;
+   }
+   button{
+       background: rgba(15, 209, 15, 0.786);
+       border-radius: 8px;
+       font-weight: bold;
+       font-size: 16px;
+       padding: 10px;
+       cursor: pointer;
+       outline: none;
+   }
+
+</style>
+<body>
+    <h2>Your Cart</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Book</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <!-- <tbody>
+            <tr>
+                <td><img src="image/Book-1.jpg" alt="Book-CSE" style="width:50px;height:70px;"><br>Python</br></td>
+                <td>3</td>
+                <td>₹2550</td>
+            </tr>
+        </tbody> -->
+    </table>
+
+    <h3>Total Amount: 0</h3>
+    <button>Proceed to Checkout</button>
+</body>
+<script src="cart.js"></script>
+</html>

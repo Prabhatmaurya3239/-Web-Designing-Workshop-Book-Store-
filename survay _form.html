@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore Survey Form</title>
+    <link rel="stylesheet" href="survay_form.css">
+</head>
+
+<body>
+    <div class="survey-container">
+        <h1>Bookstore Customer Survey</h1>
+        <form id="surveyForm">
+            <p>1. How satisfied are you with our bookstore?</p>
+            <label>
+                <input type="radio" name="satisfaction" value="Very Satisfied"> Very Satisfied
+            </label>
+            <label>
+                <input type="radio" name="satisfaction" value="Satisfied"> Satisfied
+            </label>
+            <label>
+                <input type="radio" name="satisfaction" value="Neutral"> Neutral
+            </label>
+            <label>
+                <input type="radio" name="satisfaction" value="Dissatisfied"> Dissatisfied
+            </label>
+
+            <p>2. What type of books do you prefer?</p>
+            <label>
+                <input type="checkbox" name="bookType" value="Fiction"> Fiction
+            </label>
+            <label>
+                <input type="checkbox" name="bookType" value="Non-Fiction"> Non-Fiction
+            </label>
+            <label>
+                <input type="checkbox" name="bookType" value="Sci-Fi"> Sci-Fi
+            </label>
+            <label>
+                <input type="checkbox" name="bookType" value="Biography"> Biography
+            </label>
+
+            <p>3. How often do you visit our bookstore?</p>
+            <select name="visitFrequency" id="visitFrequency">
+                <option value="Once a Week">Once a Week</option>
+                <option value="Once a Month">Once a Month</option>
+                <option value="Rarely">Rarely</option>
+                <option value="This is my first visit">This is my first visit</option>
+            </select>
+
+            <p>4. What improvements would you suggest for our bookstore?</p>
+            <textarea name="improvements" rows="4" placeholder="Write your suggestions here..."></textarea>
+
+            <p>5. Would you recommend our bookstore to others?</p>
+            <label>
+                <input type="radio" name="recommend" value="Yes"> Yes
+            </label>
+            <label>
+                <input type="radio" name="recommend" value="No"> No
+            </label>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+        <div id="responseMessage"></div>
+    </div>
+</body>
+<script src="survay_form.js"></script>
+
+</html>
